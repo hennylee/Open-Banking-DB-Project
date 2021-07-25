@@ -41,17 +41,12 @@ public class Transfer3Controller implements Controller {
 			tVo.setTargetName(targetName);
 			tVo.setMyAccount(myAccount); 
 			// 계좌 이체 성공
-<<<<<<< Updated upstream
-			//dao.transaction();
-			
-=======
 			if(dao.transfer(tVo)) {
 				// 입금처, 출금처, 이체일시, 보낸금액
 				jsp = "/transfer/result.do";
 				request.setAttribute("tVo", tVo);
 				// confirm모달창으로 이동 => 거래내역 안내 페이지로 이동
 			}
->>>>>>> Stashed changes
 			// 계좌 이체 실패
 			else {
 				msg = "이체에 실패하였습니다. ";
