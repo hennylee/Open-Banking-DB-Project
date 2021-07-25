@@ -7,10 +7,11 @@
 	$(document).ready(function() {
 		
 		// 비밀번호 입력했을 때
-		$('#password').keyup(function() {
+		$('input[type=password]').keyup(function() {
 			let length = 4
 
 			let password = $(this).val()
+			let pwcheck = $(this).val()
 
 			if (password.length > 4) {
 				$('#alert-warning-1').show()
@@ -75,22 +76,21 @@
 							<div class="col-6 col-12-xsmall">
 								<input type="password" name="password" id="password" value=""
 									placeholder="패스워드" style="margin-bottom: 20" />
-								<div class="alert alert-warning" id="alert-warning-1" hidden>숫자
-									4자리로 입력해주세요.</div>
 						
 							</div>
 							<div class="col-6 col-12-xsmall">
 								<input type="password" name="pwCheck" id="pwCheck" value=""
 									placeholder="패스워드 확인" />
-								<div class="alert alert-warning" id="alert-warning-2" hidden>숫자
+							</div>
+
+							<div class="col-12">													
+								<div class="alert alert-warning" id="alert-warning" hidden>숫자
 									4자리로 입력해주세요.</div>
 								<div class="alert alert-success" id="alert-success" hidden>비밀번호가
 									일치합니다.</div>
 								<div class="alert alert-danger" id="alert-danger" hidden>비밀번호가
 									일치하지 않습니다.</div>
 							</div>
-						
-						
 						
 							<!-- Break -->
 							<div class="col-12" style="text-align: right; margin-top: 2em">

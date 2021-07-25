@@ -7,7 +7,7 @@
   	<servlet-class>kr.co.hn.FrontControllerServlet</servlet-class>
   	<init-param>
   		<param-name>propertyLocation</param-name>
-  		<param-value>C:\kopo\Open-Banking-DB-Project\코드\HN-OpenBanking\bean.properties</param-value>
+  		<param-value>C:\\kopo\\Open-Banking-DB-Project\\코드\\HN-OpenBanking\\bean.properties</param-value>
   	</init-param>
   </servlet>
   <servlet-mapping>

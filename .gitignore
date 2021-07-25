@@ -77,3 +77,5 @@ target/
 코드/HN-OpenBanking/.project
 코드/server-work/
 코드\HN-OpenBanking\src\kr\co\hn\util\ConnectionFactory.java
+코드\HN-OpenBanking\src\kr\co\hn\controller\HandlerMapping.java
+코드\HN-OpenBanking\WebContent\WEB-INF\web.xml
