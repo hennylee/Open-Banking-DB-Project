@@ -14,7 +14,7 @@ public class HandlerMapping {
 
 	// 생성자
 	public HandlerMapping() {
-		this("C:\\kopo\\kopo-05-web\\code\\HN-OpenBanking\\bean.properties"); // propLoc
+		this("C:\\kopo\\Open-Banking-DB-Project\\코드\\HN-OpenBanking\\bean.properties"); // propLoc
 	}
 
 	public HandlerMapping(String propLoc) {
