@@ -60,9 +60,6 @@ local.properties
 .scala_dependencies
 .worksheet
 
-# Uncomment this line if you wish to ignore the project description file.
-# Typically, this file would be tracked if it contains build/dependency configurations:
-#.project
 
 ### Eclipse Patch ###
 # Spring Boot Tooling
@@ -72,10 +69,9 @@ local.properties
 ## ignoring target file
 target/
 
-# End of https://www.toptal.com/developers/gitignore/api/java-web,eclipse
-
 # 내가 필요해서 추가
 코드/Servers/
 코드/apache-tomcat-8.5.69/
+코드/apache-tomcat-9.0.46/
 코드/HN-OpenBanking/.classpath
 코드/HN-OpenBanking/.project
