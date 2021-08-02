@@ -83,13 +83,11 @@ target/
 
 # db connection
 
-코드\HN-OpenBanking\src\kr\co\hn\util\ConnectionFactory.java
-
 # handlermapping
 
-코드\HN-OpenBanking\src\kr\co\hn\controller\HandlerMapping.java
+코드/HN-OpenBanking/src/kr/co/hn/controller/HandlerMapping.java
 
 
 # web.xml
-코드\HN-OpenBanking\WebContent\WEB-INF\web.xml
+코드/HN-OpenBanking/WebContent/WEB-INF/web.xml
 코드/HN-OpenBanking/src/kr/co/hn/util/ConnectionFactory.java
