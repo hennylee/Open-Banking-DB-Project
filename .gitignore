@@ -75,3 +75,19 @@ target/
 코드/apache-tomcat-9.0.46/
 코드/HN-OpenBanking/.classpath
 코드/HN-OpenBanking/.project
+
+# server-work
+
+코드/server-work/
+
+# db connection
+
+코드\HN-OpenBanking\src\kr\co\hn\util\ConnectionFactory.java
+
+# handlermapping
+
+코드\HN-OpenBanking\src\kr\co\hn\controller\HandlerMapping.java
+
+
+# web.xml
+코드\HN-OpenBanking\WebContent\WEB-INF\web.xml
